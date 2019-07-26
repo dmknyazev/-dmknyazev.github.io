@@ -467,7 +467,7 @@ input[type="radio"].visually-hidden {
 .banner {
 	margin: 0 auto;
 	min-height: 908px;
-	max-width: 1600px;
+	width: 1600px;
 	background: #fff url(../img/cake.png) no-repeat top right ;
 }
 
@@ -570,7 +570,7 @@ input[type="radio"].visually-hidden {
 }
 
 .gallery {
-	max-width: 1600px;
+	width: 1600px;
 	margin: 0 auto;
 }
 
@@ -616,7 +616,7 @@ input[type="radio"].visually-hidden {
 }
 
 .reviews {
-	max-width: 1600px;
+	width: 1600px;
 	margin: 0 auto;
 	margin-bottom: 130px;
 	padding-top: 140px;
@@ -885,7 +885,7 @@ input[type="radio"].visually-hidden {
 }
 
 .page-footer {
-	max-width: 1600px;
+	width: 1600px;
 	margin: 0 auto;
 	padding-left: 215px;
 	background-color: #2e2e2e;
