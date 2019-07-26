@@ -92,12 +92,3 @@ dotsWrap.addEventListener('click', function(event) {
 		}
 	}
 });
-
-// 	dotsWrap.addEventListener('click', function(event) {
-// 		for (let i = 0; i < dots.length + 1; i++) {
-// 			if (event.target.classList.contains('dot') && event.target == dots[i-1]) {
-// 				currentSlide(i);
-// 			}
-// 		}
-// 	});
-
