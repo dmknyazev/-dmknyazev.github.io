@@ -53,3 +53,20 @@ dot[1].addEventListener('click', function() {
 dot[2].addEventListener('click', function() {
 	reviewsBlock.style.backgroundImage = 'url(img/reviews-bg3.jpg)'
 });
+
+
+
+let navToggle = document.querySelector('.main-nav__toggle'),
+	mainNav = document.querySelector('.main-nav'),
+	siteList = document.querySelector('.site-list');
+
+navToggle.addEventListener('click', function() {
+	if(mainNav.classList.contains('main-nav--closed')) {
+		mainNav.classList.remove('main-nav--closed');
+		mainNav.classList.add('main-nav--opened');
+	} else {
+		mainNav.classList.remove('main-nav--opened');
+		mainNav.classList.add('main-nav--closed');
+
+	}
+});
