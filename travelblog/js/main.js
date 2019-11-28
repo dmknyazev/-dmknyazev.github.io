@@ -1,5 +1,3 @@
-
-
 $(function(){
 
 	'use strict';
@@ -23,8 +21,6 @@ $(function(){
     infinite: false,
     dots: true
   });
-
-  $('select').styler();
 
   $('.header__btn-menu').on('click', function(){
     $('.menu ul').slideToggle();
